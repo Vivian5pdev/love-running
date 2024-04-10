@@ -55,6 +55,23 @@ h1 {
     color: #252525;
 }
 
+ul {
+    list-style-type: none;
+    line-height: 2
+  }
+
+#Menu {
+       font-size: 110%;
+       letter-spacing: 4px;
+       list-style-type: none;
+       margin-bottom: 2em;
+   }
+
+.active { border-bottom: 1px solid #3a3a3a;
+
+   }
+
+
 
 /* Main content */
 main {
@@ -62,6 +79,9 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
+
+
+
 
 /* Footer */
 footer {
