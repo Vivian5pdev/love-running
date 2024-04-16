@@ -186,6 +186,13 @@ main {
     color: #fafafa;
 }
 
+/*Meetup Times Section*/
+#times {
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -260,6 +267,8 @@ main {
         text-align: end;
         align-self: flex-end;
     }
+
+    
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
